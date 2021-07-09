@@ -1,0 +1,223 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdfdfd;
+   
+}
+
+.header__logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header__logo img {
+    width: 100px;
+}
+
+.header__menu {
+ display: flex;
+ justify-content: right;
+text-decoration: none;
+color: #FFC000;
+font-style: normal;
+list-style-type: none;
+}
+
+.header__menu ul {
+    font-size: 25px;
+    padding-top: 20px;
+    display: flex;
+    text-decoration: none;
+    font-style: normal;
+    list-style-type: none;
+
+}
+
+.header__menu ul li {
+    text-decoration: none;
+margin: 0 15px;
+
+}
+
+.header__menu ul li a {
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+    color: #FFC000;
+margin: 0 15px;
+padding: 20px;
+
+}
+
+.header__menu ul li a:hover {
+background-color: #FFC000;
+color: white;
+text-shadow: 1px 1px black;
+padding: 20px;
+
+
+}
+
+body{
+    background: white;
+}
+
+.titulo {
+    font-family:'Covered By Your Grace', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    padding: 80px;
+    text-shadow: 1px 2px black;
+    text-align: center;
+    background: white;
+    color: #FFC000;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    -o-animation-itertion-count: infinite;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+
+.titulo2{
+    font-family: 'Covered By Your Grace', cursive;
+    font-style: normal;
+    font-size: 40px;
+    padding: 80px;
+    text-shadow: 1px 2px black;
+    text-align: center;
+    font-weight: 200;
+    color: #FFC000;
+
+}
+
+.titulo3 {
+    font-family:'Covered By Your Grace', cursive;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 2px black;
+    font-weight: 100;
+    padding: 80px;
+    color: #FFC000;
+    background: white ;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: black;
+}
+
+th {
+    color: #FFC000;
+    border: 1px solid;
+}
+
+tr, td {
+
+    color: #FFC000;
+    border: 1px solid;
+}
+
+.imagenOfertas {
+    width: 1080px;
+    height: 350px;
+    text-align: center;
+    padding: 0px;
+    box-sizing:content-box;
+
+}
+
+.Contenido {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    border: 1px solid white;
+    padding: 10px;
+    margin: auto;
+
+    
+}
+
+.containerGrid {
+
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+
+}
+
+.containerFlex2 {
+
+height: 100px;
+display: grid;
+grid-gap: 150px 150px;
+grid-template-columns: 100px 100px 100px 100px;
+justify-content: space-evenly;
+
+}
+
+.imagenTipoCarrusel {
+display: flex;
+justify-content: space-around;
+align-items:stretch;
+}
+
+.FlexFooter {
+    width: auto;
+    height: 10px;
+    padding: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+.CopyFooter {
+    padding: 40px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+
+}
+
+.imagenProductosEfecto {
+    width: 250px; height: 250px;
+    transition: all 2s;
+
+}
+.imagenProductosEfecto :hover {
+    padding: 3px;
+    background-color:#FFC000;
+
+}
+
+.MarcasEfecto {
+    width: 150px; height: 150px;
+    transition: all 2s;
+
+}
+
+.MarcasEfecto :hover {
+    width: 100px; height: 100px;
+    padding: 2px;
+    background-color:#FFC000;
+
+}
